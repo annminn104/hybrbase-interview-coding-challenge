@@ -8,9 +8,9 @@
     "npm": "please-use-yarn"
   },
   "scripts": {
-    "dev": "next dev -p 5050",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && next dev -p 5050",
     "build": "next build",
-    "start": "next start",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && next start",
     "lint": "next lint",
     "format": "prettier --write .",
     "prepare": "husky"
