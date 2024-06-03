@@ -31,7 +31,6 @@ const configEnv = configSchema.safeParse({
   },
   email: {
     send: process.env.GMAIL_EMAIL_SEND,
-    receive: process.env.GMAIL_EMAIL_RECEIVE,
     password: process.env.GMAIL_EMAIL_PASSWORD
   },
   googleSheet: {

@@ -2,7 +2,8 @@
 
 ## Demo
 
-- [https://matthew-hybrbase.vercel.app](https://matthew-hybrbase-coding-challenge.vercel.app)
+- WEB: [https://matthew-hybrbase.vercel.app](https://matthew-hybrbase.vercel.app)
+- Google Sheet: [Link](https://docs.google.com/spreadsheets/d/1e1Xzm_i1yTutdFS-oEaMW_J7bhWKaUn_1ljOqVN4Kqk/edit?usp=sharing)
 
 ### Description
 
@@ -44,7 +45,6 @@ NEXT_PUBLIC_BASE_CLIENT = "http://localhost:5050"
 
 # GG OAUTH send mail
 GMAIL_EMAIL_SEND = ""
-GMAIL_EMAIL_RECEIVE = ""
 GMAIL_EMAIL_PASSWORD = ""
 
 # Google Sheet APIs
