@@ -6,7 +6,6 @@ const configSchema = z.object({
   }),
   email: z.object({
     send: z.string(),
-    receive: z.string(),
     password: z.string()
   }),
   googleSheet: z.object({
