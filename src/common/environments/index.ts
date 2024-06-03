@@ -36,7 +36,7 @@ const configEnv = configSchema.safeParse({
     sheetId: process.env.NEXT_PUBLIC_GG_SHEET_ID,
     type: process.env.NEXT_PUBLIC_GG_TYPE,
     projectId: process.env.NEXT_PUBLIC_GG_PROJECT_ID,
-    privateKeyId: process.env.NEXT_PUBLIC_GG_PRIVATE_KEY_ID,
+    privateKeyId: (process.env.NEXT_PUBLIC_GG_PRIVATE_KEY_ID as string).replace(/\\n/g, '\n'),
     privateKey: process.env.NEXT_PUBLIC_GG_PRIVATE_KEY,
     clientEmail: process.env.NEXT_PUBLIC_GG_CLIENT_EMAIL,
     clientId: process.env.NEXT_PUBLIC_GG_CLIENT_ID,
