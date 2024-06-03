@@ -1,0 +1,54 @@
+{
+  "name": "hybrbase-interview-coding-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=18",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
+  "scripts": {
+    "dev": "next dev -p 5050",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.19",
+    "@types/nodemailer": "^6.4.15",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@hookform/resolvers": "^3.4.2",
+    "@types/lodash": "^4.17.4",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "googleapis": "^137.1.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "nodemailer": "^6.9.13",
+    "prettier": "^3.3.0",
+    "react-hook-form": "^7.51.5",
+    "typescript": "^5",
+    "zod": "^3.23.8"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write --ignore-unknown",
+      "git add ."
+    ]
+  }
+}
